@@ -65,14 +65,12 @@ function calcCgpa() {
     const gradeValue = selectedGrade.text.toUpperCase();
     listOfGrades.push(gradeValue);
   });
-  console.log(listOfGrades);
 
   UNIT.forEach((e) => {
     const unitValue = parseInt(e.value);
     totalUnits += unitValue;
     listOfUnits.push(unitValue);
   });
-  console.log(listOfUnits);
 
   let totalEarnedUnits = 0;
 
